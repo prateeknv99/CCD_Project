@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    >
+    <ImageView
+        android:id="@+id/mainid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ccd_logo"/>
+    <TextView
+        android:id="@+id/newr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User Registration"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainid"
+        android:textSize="30dp"
+        android:textColor="#bc0c00"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_below="@+id/newr"
+        android:textColorHint="#d9d6d5"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@+id/username"
+        android:textColorHint="#d9d6d5"/>
+    <EditText
+        android:id="@+id/conpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ConfirmPassword"
+        android:layout_below="@+id/password"
+        android:textColorHint="#000000"/>
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile No."
+        android:layout_below="@+id/conpassword"
+        android:textColorHint="#000000"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:layout_below="@+id/mobile"
+        android:textColorHint="#000000"/>
+
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lbtn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Already Registered User!"
+        android:textSize="17dp"
+        android:textColor="#18e6e6"/>
+    <Button
+        android:id="@+id/lbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Click Here To Login"
+        />
+</RelativeLayout>
