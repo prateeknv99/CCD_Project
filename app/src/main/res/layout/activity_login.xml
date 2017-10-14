@@ -41,13 +41,13 @@
 
 
     <Button
-        android:id="@+id/registerbtn"
+        android:id="@+id/lbtn"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="20dp"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Login"
         />
     </RelativeLayout>
 

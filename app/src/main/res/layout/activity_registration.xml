@@ -78,7 +78,7 @@
         android:textSize="17dp"
         android:textColor="#18e6e6"/>
     <Button
-        android:id="@+id/lbtn"
+        android:id="@+id/cbtn"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="20dp"
