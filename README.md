@@ -1,4 +1,4 @@
-#A Startup App For A Restaurant
+# A Startup App For A Restaurant
 - To make orders
 - To make online payments
 - To check status of an order
